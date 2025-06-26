@@ -1,3 +1,14 @@
+# Gradient Amplification for Gradient Matching Based Dataset Distillation
+
+## Highlights :sparkles:
+- Label cycle shifting strategy produces informative gradient information. 
+- The early exit mechanism alleviates matching the useless gradients.
+- Ensembling distilled datasets makes the training process more stable. 
+- Gradient matching and distribution matching mutually enhance each other. 
+
+## Getting Started
+Prepare the CIFAR10, CIFAR100, ImageNet10, and TinyImageNet datasets.
+
 ## Experiment Commands
 
 ### Pretrain Early-Stage Models on Real Data
@@ -36,5 +47,8 @@ python condense.py --reproduce -d [dataset] -f [factor] --ipc [ipc] -n [network]
 - You can also modify the parameters for other datasets.
 
 
-
-
+## Acknowledgement
+This project is mainly developed based on the following works:
+- [IDC](https://github.com/snu-mllab/efficient-dataset-condensation)
+- [AccDD](https://github.com/ncsu-dk-lab/Acc-DD)
+- [DREAM](https://github.com/vimar-gu/DREAM)
