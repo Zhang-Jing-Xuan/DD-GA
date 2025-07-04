@@ -38,7 +38,7 @@ python condense.py --reproduce -d [dataset] -f [factor] --ipc [ipc] -n [network]
 ```
 
 - ```-d```: training dataset.
-- ```-f```: factor. ```-f 2``` for CIFAR-10 and CIFAR-100, ```-f 3``` for ImageNet-10.
+- ```-f```: factor. ```-f 2``` for CIFAR-10, CIFAR-100, and TinyImageNet ```-f 3``` for ImageNet-10.
 - ```--ipc```: number of image per class in distilled dataset.
 - ```-n```: the network. ```-n convnet``` for CIFAR-10 and CIFAR-100, ```-n resnetap``` for ImageNet-10.
 - ```--model_path```: the path of checkpoints of pretrained early-stage models.
