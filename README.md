@@ -52,3 +52,15 @@ This project is mainly developed based on the following works:
 - [IDC](https://github.com/snu-mllab/efficient-dataset-condensation)
 - [AccDD](https://github.com/ncsu-dk-lab/Acc-DD)
 - [DREAM](https://github.com/vimar-gu/DREAM)
+
+## Citation
+If you find this work helpful, please cite:
+```
+@article{zhang2025gradient,
+  title={Gradient amplification for gradient matching based dataset distillation},
+  author={Zhang, Jingxuan and Chen, Zhihua and Dai, Lei and Li, Ping and Sheng, Bin},
+  journal={Neural Networks},
+  pages={107819},
+  year={2025},
+}
+```
