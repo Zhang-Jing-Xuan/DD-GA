@@ -4,7 +4,9 @@
 - Label cycle shifting strategy produces informative gradient information. 
 - The early exit mechanism alleviates matching the useless gradients.
 - Ensembling distilled datasets makes the training process more stable. 
-- Gradient matching and distribution matching mutually enhance each other. 
+- Gradient matching and distribution matching mutually enhance each other.
+
+![Basic idea](ReadMe/arch.png)
 
 ## Getting Started
 Prepare the CIFAR10, CIFAR100, ImageNet10, and TinyImageNet datasets.
