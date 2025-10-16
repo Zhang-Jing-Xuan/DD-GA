@@ -6,7 +6,7 @@
 - Ensembling distilled datasets makes the training process more stable. 
 - Gradient matching and distribution matching mutually enhance each other.
 
-![Basic idea](ReadMe/arch.png)
+![Basic idea](assets/arch.png)
 
 ## Getting Started
 Prepare the CIFAR10, CIFAR100, ImageNet10, and TinyImageNet datasets.
